@@ -1,0 +1,30 @@
+{
+  "name": "test-systeminfo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shatfel/test-systeminfo.git"
+  },
+  "keywords": [
+    "shatfel",
+    "nodejs",
+    "hardware",
+    "test",
+    "system",
+    "information"
+  ],
+  "author": "shatfel <shatlfe@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shatfel/test-systeminfo/issues"
+  },
+  "homepage": "https://github.com/shatfel/test-systeminfo#readme",
+  "dependencies": {
+    "systeminformation": "^5.8.2"
+  }
+}
