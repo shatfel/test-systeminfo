@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm i",
+    "start": "supervisor ./src/main.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
   },
   "homepage": "https://github.com/shatfel/test-systeminfo#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
     "systeminformation": "^5.8.2"
   }
 }
