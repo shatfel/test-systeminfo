@@ -39,9 +39,9 @@ async function getDeviceInfo() {
     libCommon.pP('Swap free: ' + data.swapfree/1024/1024 + "M")
     }).catch(error => libCommon.pE(error))
 
-  // loads
+  // loadsn
   await si.currentLoad().then(data => {
-    libCommon.pP("CPUs: ")
+    libCommon.pI("CPUs: ")
     data.cpus.forEach(element => {
       libCommon.pP(element.loadSystem)
     });

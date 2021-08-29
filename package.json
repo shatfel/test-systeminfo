@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm i",
-    "start": "supervisor ./src/main.js"
+    "start": "supervisor ./src/main.mjs"
   },
   "repository": {
     "type": "git",
